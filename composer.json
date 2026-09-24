@@ -1,0 +1,13 @@
+{
+    "name": "leconfe/stripe-payment",
+    "authors": [
+        {
+            "name": "Leconfe"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "StripePayment\\": "src/"
+        }
+    }
+}
