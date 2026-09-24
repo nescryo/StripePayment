@@ -58,7 +58,9 @@ class StripeSetting extends Component implements HasForms
                                 TextInput::make('publishable_key')
                                     ->label('Live Publishable Key'),
                                 TextInput::make('secret_key')
-                                    ->label('Live Secret Key'),
+                                    ->label('Live Secret Key')
+                                    ->password()
+                                    ->revealable(),
                             ]),
                         Grid::make(1)
                             ->maxWidth('xl')
@@ -67,7 +69,9 @@ class StripeSetting extends Component implements HasForms
                                 TextInput::make('publishable_key_test')
                                     ->label('Sandbox Publishable Key'),
                                 TextInput::make('secret_key_test')
-                                    ->label('Sandbox Secret Key'),
+                                    ->label('Sandbox Secret Key')
+                                    ->password()
+                                    ->revealable(),
                             ]),
                     ]),
                 Actions::make([

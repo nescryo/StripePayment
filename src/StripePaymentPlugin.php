@@ -41,9 +41,11 @@ class StripePaymentPlugin extends Plugin
                             ->type('info'),
                         TextEntry::make('stripe_session_id')
                             ->label('Session ID')
+                            ->extraAttributes(['class' => 'break-all'])
                             ->getStateUsing(fn ($record) => $record->getMeta('stripe_session_id')),
                         TextEntry::make('stripe_payment_intent')
                             ->label('Payment Intent')
+                            ->extraAttributes(['class' => 'break-all'])
                             ->visible(fn () => auth()->user()?->can('update', app()->getCurrentScheduledConference()))
                             ->getStateUsing(fn ($record) => $record->getMeta('stripe_payment_intent')),
                     ]);

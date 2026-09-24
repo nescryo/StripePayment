@@ -1,6 +1,5 @@
 {
     "name": "leconfe/stripe-payment",
-    "description": "Stripe payment gateway integration for Leconfe.",
     "autoload": {
         "psr-4": {
             "StripePayment\\": "src/"
