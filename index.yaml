@@ -1,0 +1,5 @@
+name: StripePayment
+folder: StripePayment
+author: leconfe
+description: 'Payment integration for Stripe'
+version: 1.0.0
