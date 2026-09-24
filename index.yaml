@@ -1,4 +1,4 @@
-name: StripePayment
+name: 'Stripe Payment'
 folder: StripePayment
 author: Leconfe
 description: 'Payment integration for Stripe'
