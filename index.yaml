@@ -1,5 +1,5 @@
-name: StripePayment
+name: 'Stripe Payment'
 folder: StripePayment
-author: leconfe
+author: Leconfe
 description: 'Payment integration for Stripe'
 version: 1.0.0
